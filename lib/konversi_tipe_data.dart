@@ -11,6 +11,9 @@ void main() {
 
   // sedangkan ketika ingin mengubah tipe data dari string ke num mengunak parse(nama varible)
   var var2 = "3289";
-  var stringtonumber = int.parse(var2);
+
+  /// wajiv angka
+  var stringtonumber = int.parse(var2); // double.parse()
+
   print(stringtonumber);
 }
