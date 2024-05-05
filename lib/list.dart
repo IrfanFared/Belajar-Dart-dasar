@@ -46,4 +46,5 @@ masukkan
 
   // nama.remove(2); menghapus data di dalam list dan mengeser list yang sehrusnya index kedua adalah kaila namun digeser index kedua menjadi salsa
   print(nama[2]);
+  
 }
