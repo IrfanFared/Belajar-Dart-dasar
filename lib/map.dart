@@ -6,6 +6,12 @@ void main() {
 
   print(nama);
 
+  var kelas = Map<String, String>();
+  kelas["kelas palimg rame"] = "kelas  preman";
+  kelas["kelas paling pintar"] = "kelas apple";
+
+  print(kelas);
+
   /// adak cara untuk memanipulasi map
   /// contohya
 
