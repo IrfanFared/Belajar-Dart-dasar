@@ -1,6 +1,3 @@
-import 'dart:ffi';
-import 'dart:nativewrappers/_internal/vm/lib/ffi_native_type_patch.dart';
-
 void main() {
   var name = "irfan pratama";
 

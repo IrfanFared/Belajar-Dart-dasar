@@ -1,11 +1,13 @@
-int faktorialrecusive(int value) {
-  if (value == 1) {
-    return 1;
+int faktorial(int n) {
+  if (n <= 1) {
+    return 1; // Base case: faktorial 1 adalah 1
   } else {
-    return value * faktorialrecusive(-1);
+    return n * faktorial(n - 1); // Recursive case: n * faktorial dari n-1
   }
 }
 
 void main() {
-  print(faktorialrecusive(3));
+  print(faktorial(3)); // Output: 120
 }
+
+// Rekursi dalam pemrograman adalah teknik di mana sebuah fungsi memanggil dirinya sendiri untuk menyelesaikan masalah yang lebih besar dengan memecahnya menjadi sub-masalah yang lebih kecil.

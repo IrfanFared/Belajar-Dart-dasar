@@ -3,7 +3,7 @@ void namalengkap({required String? nama, required String? belakang}) {
 }
 
 void main() {
-  namalengkap(belakang: "pratama", nama: "irfan");
+  namalengkap(belakang: "pratama", nama: "irfan"); //-Irfan harus di definisikan
   // namalengkap(); bakalan eror karena parameter harus diisi
 }
 
