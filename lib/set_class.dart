@@ -21,7 +21,7 @@ class Student {
 
   // Menampilkan semua mata pelajaran
   void showSubjects() {
-    print('Subjects taken by $name: $subjects');
+    print('Subjects taken by $name:s');
   }
 }
 
