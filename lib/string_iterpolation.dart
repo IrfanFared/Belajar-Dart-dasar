@@ -7,7 +7,8 @@ void main() {
 
   var fulname = "$namadepan, $namabelakang";
 
-  print(fulname);
+  print(
+      " ${namadepan.toString()} "); // - Irfan kita bisa memanipulasi data yang di panggil oleh string iterpolatin dengan kurung kurawal dan titik
 
   /// jika ada kodisi dimanana kita ingin mengunakan tanda $ kitak bisa
   /// mengunakan blckslash
