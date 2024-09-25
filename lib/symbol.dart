@@ -2,7 +2,12 @@ void main() {
   Symbol bintang = Symbol("***");
   var tandakurung = #djiwd;
 
+  var symbol1 = Symbol('mySymbol');
+  var symbol2 = #mySymbol;
+  print(symbol1 == symbol2); // true
+
   print(bintang);
+
   print(tandakurung);
 }
 
