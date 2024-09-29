@@ -1,0 +1,4 @@
+Karakteristik Fungsi Rekursif
+Basis Kasus: Setiap fungsi rekursif harus memiliki kondisi dasar (base case) yang menghentikan pemanggilan berulang. Tanpa basis kasus, fungsi akan terus memanggil dirinya sendiri, menyebabkan infinite loop.
+Panggilan Diri: Fungsi memanggil dirinya sendiri dengan parameter yang dimodifikasi, sehingga mendekati basis kasus.
+Pembagian Masalah: Fungsi rekursif membagi masalah besar menjadi submasalah yang lebih kecil.
