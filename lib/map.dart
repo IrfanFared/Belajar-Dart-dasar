@@ -24,4 +24,12 @@ void main() {
 
   // nama.remove(nama depan);
   // untuk menghapus key;
+  var countryCapital = Map<String, String>();
+  countryCapital['USA'] = 'Washington, D.C.';
+  countryCapital['India'] = 'New Delhi';
+  countryCapital['China'] = 'Beijing';
+
+  print(countryCapital[
+      'USA']); //-Irfan ini adalah cara mengakses satu nilai di sebua map
+  // -irfan jadi map itu mirip seperti lis juma nilai kunci memiliki karakter unik
 }
