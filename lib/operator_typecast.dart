@@ -2,7 +2,6 @@
 // as menkonfersi tipe data secara paksa
 /// is  akan true jika tipe data sesuai
 /// is! akan tru jika tipe data tidak sesuai
-///
 
 void main() {
   dynamic variable = 100;

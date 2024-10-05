@@ -9,8 +9,8 @@ void main() {
   var nilaiakhitlulus = nilaiakhir >= 20;
   var nilaiabsenlulus = nilaiabsen >= 20;
 
-  var pembuktian = nilaiakhitlulus &&
-      nilaiabsenlulus; // hanya akan bernilai tru jika kedua data true jika salah satu false akan menghasikan false
+  var pembuktian = nilaiakhitlulus && nilaiabsenlulus;
+  // hanya akan bernilai tru jika kedua data true jika salah satu false akan menghasikan false
 
   print(pembuktian);
 

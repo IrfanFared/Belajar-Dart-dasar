@@ -7,7 +7,7 @@ int faktorial(int n) {
 }
 
 void main() {
-  print(faktorial(3)); // Output: 120
+  print(faktorial(4)); // Output: 120
 }
 
 // Rekursi dalam pemrograman adalah teknik di mana sebuah fungsi memanggil dirinya sendiri untuk menyelesaikan masalah yang lebih besar dengan memecahnya menjadi sub-masalah yang lebih kecil.
